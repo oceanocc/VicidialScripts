@@ -32,7 +32,7 @@
 <h2>Script de AVISOS</h2>
 
 Sr(a) <?=$_GET['first_name']?>, qué tal. Le habla [nombre de agente] de Movistar.
-El día <?=$_GET['last_name']?> realiz&oacute;n con nosotros su proceso de cambio de compa&ntilde;&iacute;a. Solo quiero 
+El día <?=$_GET['last_name']?> realiz&oacute; con nosotros su proceso de cambio de compa&ntilde;&iacute;a. Solo quiero 
 recordarle que debe acercarse al Centro de Atenci&oacute;n (CAV), llevar su credencial y realizar la recarga 
 correspondiente para finalizar el tr&aacute;mite, ¿de acuerdo?
 
