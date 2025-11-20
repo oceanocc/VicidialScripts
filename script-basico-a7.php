@@ -31,20 +31,30 @@
 
 <h2>Script de AVISOS</h2>
 
-Sr(a) <?=$_GET['first_name']?>, qué tal. Le habla [nombre de agente] de Movistar.
-El día <?=$_GET['last_name']?> realiz&oacute; con nosotros su proceso de cambio de compa&ntilde;&iacute;a. Solo quiero 
-recordarle que debe acercarse al Centro de Atenci&oacute;n (CAV), llevar su credencial y realizar la recarga 
-correspondiente para finalizar el tr&aacute;mite, ¿de acuerdo?
-
-Adem&aacute;s, ya que aprovech&oacute; esta promoci&oacute;n, ¿le gustar&iacute;a cambiar otro n&uacute;mero que tenga o quiz&aacute; recomendar 
-a alg&uacute;n familiar, hijo o esposo/a para que tambi&eacute;n disfrute del beneficio?
+<p>
+    Sr(a) <?=$_GET['first_name']?>, qué tal. Le habla [nombre de agente] de Movistar.
+    Usted realiz&oacute; con nosotros su proceso de cambio de compa&ntilde;&iacute;a. Solo quiero 
+    recordarle que debe acercarse al Centro de Atenci&oacute;n acordado, llevar su credencial y realizar la recarga 
+    correspondiente para finalizar el tr&aacute;mite, ¿de acuerdo?
+</p>
+<p>
+    Adem&aacute;s, ya que aprovech&oacute; esta promoci&oacute;n, ¿le gustar&iacute;a cambiar otro n&uacute;mero que tenga o quiz&aacute; recomendar 
+    a alg&uacute;n familiar o conocido para que tambi&eacute;n disfrute del beneficio?
 </p>
 
 <h2>Informaci&oacute;n adicional</h2>
 <table>
     <tr>
+        <th>FECHA DE VENTA</th>
+        <td><?=$_GET['last_name']?></td>
+    </tr>
+    <tr>
         <th>DN</th>
         <td><?=$_GET['phone_number']?></td>
+    </tr>
+    <tr>
+        <th>FVC</th>
+        <td><?=$_GET['address3']?></td>
     </tr>
     <tr>
         <th>CLIENTE</th>
@@ -65,14 +75,6 @@ a alg&uacute;n familiar, hijo o esposo/a para que tambi&eacute;n disfrute del be
     <tr>
         <th>PROMOCI&Oacute;N</th>
         <td><?=$_GET['address2']?></td>
-    </tr>
-    <tr>
-        <th>FVC</th>
-        <td><?=$_GET['address3']?></td>
-    </tr>
-    <tr>
-        <th>FECHA DE VENTA</th>
-        <td><?=$_GET['last_name']?></td>
     </tr>
 </table>
 
